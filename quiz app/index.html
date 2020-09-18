@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="asstes/stylesheets/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="start-quiz text-center flex-center">Start Quiz</div>
+        <div class="quiz-container">
+            <div class ="question-img">
+                <img class="quiz-img" src="" alt="Quiz Image">
+            </div>
+            <div class="questions">
+                <p class="quiz-question"></p>
+            </div>
+            <div class ="options">
+                <div class="quiz-options option1" onclick="checkAnswer('A')">A</div>
+                <div class="quiz-options option2" onclick="checkAnswer('B')">B</div>
+                <div class="quiz-options option3" onclick="checkAnswer('C')">C</div>
+            </div>
+        </div>
+
+        <div class="progress">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            
+        </div>
+        <div class="score-container">
+            <p class = 'final-score'></p>
+        </div>
+    </div>
+    
+    <script src="quiz.js"></script>
+</body>
+</html>

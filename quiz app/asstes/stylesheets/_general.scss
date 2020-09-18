@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 600px;
+	margin: 20px auto;
+	height: 300px;
+	width: 700px;
+    border-radius: 5px;
+	box-shadow: 0px 5px 15px 0px;
+	position: relative;
+}
+
+.padding {
+	padding: 4rem 0;
+}
+
+.img-responsive {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.none {
+	display: none;
+}
+
+.btn {
+	text-transform: uppercase;
+	// font-family: $body-font;
+	font-size: 1rem;
+	font-weight: 700;
+	padding: 0.6rem 1.25rem;
+	margin-top: 10px;
+	color: #484338;
+	border: 1px solid #a58251;
+	overflow: hidden;
+}
+
+
+/* 
+    ========== margins ===========
+    mt - margin-top
+    mb - margin-bottom
+    ml - margin-left
+    mr - margin-right
+
+    mr-2 - margin-right: 2rem;
+*/
+
+.mt-2 {
+	margin-top: 2rem;
+}
+
+.mt-4 {
+	margin-top: 4rem;
+}
+
+.mt-6 {
+	margin-top: 6rem;
+}
+
+.m-1 {
+	margin: 1rem;
+}
+
+.mt-05 {
+	margin-top: 0.5rem;
+}
+.mb-1 {
+	margin-bottom: 1rem;
+}
+// padding
+
+.pr-2 {
+	padding-right: 2rem;
+}
+
+.pl-2 {
+	padding-left: 2rem;
+}
+
+.p-3 {
+	padding: 3rem;
+}
+
+.p-2 {
+	padding: 2rem;
+}
+
+.p-1 {
+	padding: 1rem;
+}
+
+.pt-6 {
+	padding-top: 6rem;
+}
+
+.pt-7 {
+	padding-top: 7rem;
+}
+
+.ptb-3 {
+	padding: 3rem 0;
+}
+
+.ptb-2 {
+	padding: 2rem 0;
+}
+
+.ptb-1 {
+	padding: 1rem 0;
+}
+
+.ptb-5 {
+	padding: 5rem;
+}
+
+.ptb-6 {
+	padding: 6rem 0;
+}
+
+.ptb-7 {
+	padding: 7rem 0;
+}

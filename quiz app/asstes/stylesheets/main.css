@@ -1,0 +1,481 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background: none;
+}
+
+input,
+button,
+textarea {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  color: #484334;
+  line-height: 1.5;
+  font-family: 'Rosario', sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.6;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+@media all and (max-width: 900px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.col-1-2 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 48%;
+          flex: 0 1 48%;
+}
+
+.flex-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.col-1-4 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 23%;
+          flex: 1 1 23%;
+}
+
+@media screen and (max-width: 1024px) {
+  .flex-col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .col-1-2 {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  height: 300px;
+  width: 700px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 15px 0px;
+          box-shadow: 0px 5px 15px 0px;
+  position: relative;
+}
+
+.padding {
+  padding: 4rem 0;
+}
+
+.img-responsive {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.none {
+  display: none;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.6rem 1.25rem;
+  margin-top: 10px;
+  color: #484338;
+  border: 1px solid #a58251;
+  overflow: hidden;
+}
+
+/* 
+    ========== margins ===========
+    mt - margin-top
+    mb - margin-bottom
+    ml - margin-left
+    mr - margin-right
+
+    mr-2 - margin-right: 2rem;
+*/
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.mt-05 {
+  margin-top: 0.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.pr-2 {
+  padding-right: 2rem;
+}
+
+.pl-2 {
+  padding-left: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.pt-6 {
+  padding-top: 6rem;
+}
+
+.pt-7 {
+  padding-top: 7rem;
+}
+
+.ptb-3 {
+  padding: 3rem 0;
+}
+
+.ptb-2 {
+  padding: 2rem 0;
+}
+
+.ptb-1 {
+  padding: 1rem 0;
+}
+
+.ptb-5 {
+  padding: 5rem;
+}
+
+.ptb-6 {
+  padding: 6rem 0;
+}
+
+.ptb-7 {
+  padding: 7rem 0;
+}
+
+.start-quiz {
+  font-size: 2rem;
+  word-break: break-all;
+  width: 100px;
+  height: 150px;
+  border: 2px solid lightgrey;
+  cursor: pointer;
+  position: absolute;
+  left: 250px;
+  top: 70px;
+  color: lightgrey;
+}
+
+.start-quiz:hover {
+  border: 3px solid lightseagreen;
+  color: lightseagreen;
+}
+
+.quiz-container {
+  display: none;
+}
+
+.quiz-container .question-img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.quiz-container .question-img .quiz-img {
+  width: 200px;
+  height: 220px;
+  border-top-left-radius: 5px;
+}
+
+.quiz-container .questions {
+  width: 420px;
+  height: 125px;
+  position: absolute;
+  right: -20px;
+  top: 0;
+}
+
+.quiz-container .questions .quiz-question {
+  margin: 0;
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
+.quiz-container .options {
+  width: 410px;
+  position: absolute;
+  right: -15px;
+  top: 130px;
+  padding: 8px;
+}
+
+.quiz-container .options .quiz-options {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.progress {
+  display: none;
+  width: 500px;
+  position: absolute;
+  bottom: 0px;
+  right: 49px;
+  padding: 5px;
+  text-align: center;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #000;
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.score-container {
+  display: none;
+  margin: 20px auto;
+  background-color: #a3cea6;
+  opacity: 0.8;
+  height: 300px;
+  width: 603px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 15px 0px;
+          box-shadow: 0px 5px 15px 0px;
+  position: relative;
+  display: none;
+}
+
+.final-score {
+  position: absolute;
+  display: block;
+  width: 59px;
+  height: 59px;
+  top: 130px;
+  left: 325px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */
